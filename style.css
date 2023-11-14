@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {}
+
+nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    position: relative;
+    top: -39px;
+}
+
+nav img {
+    height: 56px;
+
+    position: relative;
+    top: 42px;
+    left: 226px;
+    width: 170px;
+
+}
+
+nav ul li {
+    /* flex-grow: 8; */
+    list-style: none;
+    margin: 27px;
+    padding: 6px;
+}
+
+/* main */
+main {
+    justify-content: center;
+}
+
+.container {
+    /* border: 2px solid black; */
+    text-align: center;
+    width: 768px;
+    position: relative;
+    top: -8px;
+    left: 312px;
+
+}
+
+.container h2 {
+    font-size: 35px;
+    padding: 15px;
+
+}
+
+.container p {
+    font-size: 20px;
+    padding: 13px
+}
+
+.container .btn_con {
+    background-color: #3862ff;
+    width: 268px;
+    height: 35px;
+    border-radius: 3px;
+    margin: 14px;
+    text-decoration: none;
+}
+
+.boxes {
+    margin-left: 293px;
+    height: 79vh;
+    margin-top: 44px;
+    width: 73vw;
+}
+
+.boxes p {
+    position: absolute;
+    left: 225px;
+    top: 407px;
+    font-size: 14px;
+    height: 128px;
+    width: 487px;
+    text-align: right;
+}
+
+.boxes img {
+    position: absolute;
+    left: 97px;
+    top: -10px;
+}
+
+/* boxe-ese */
+ .box {
+   background-color: beige;
+    width: 207px;
+    margin: 8px;
+    height: 91px;
+    text-align: center;
+    display: inline-table;
+    margin-top: 59px;
+    margin-left: 33px;
+
+}
+
+.box .btn {
+    position: relative;
+    top: 48px;
+    border: 3px;
+    width: 99px;
+    height: 25px;
+    border-radius: 3px;
+    font-size: 9px;
+    margin: 2px;
+}
+
+.box .btn1 {
+    background-color: rgb(25 91 231);
+
+}
+
+.box .btn2 {
+    background-color: rgb(5, 92, 16);
+}
+
+
+/* footer */
+footer {
+    background-color: #1e1b1b;
+    text-align: center;
+    color: white;
+    height: 77vh;
+}
+/* THANKS FOR WATCHING:) */
